@@ -22,10 +22,6 @@ struct AlbumResults: Decodable {
     let artistName: String
     let artworkUrl100: String
     let url: String
-    let genres: [Genres]
     let copyright: String
 }
 
-struct Genres: Decodable {
-    let name: String
-}
